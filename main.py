@@ -2,4 +2,4 @@ import pandas as pd
 
 df=pd.read_csv("teste.csv)
                
-print('importei')
+df_copia = df.copy()
